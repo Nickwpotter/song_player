@@ -21,3 +21,8 @@ The sharing option allows users to generate a file with information about their 
 
 # Create Another Playlist:
 Users can create additional playlists by returning to the main menu and repeating the steps.
+
+# Contributors Section
+Justin Cresswell
+Nick Potter
+Alexis Perez

@@ -25,7 +25,6 @@ class PlayList:
         current = self.start
         count = 0
         while current is not None and count < index:
-            print('test error in helper')
             current = current.next
             count += 1
         return current
@@ -50,7 +49,6 @@ class PlayList:
                         self.clear()
                         return
                     elif current.next is None:
-                        print(current, current.next, current.prev)
                         self.end = current.prev 
                         self.end.next = None
                         self.length -= 1
@@ -157,7 +155,6 @@ class PlayList:
 
             self.length += 1
             self.cur = self.start
-            print(self.length)
 
 
     def clear(self) -> None:
@@ -250,7 +247,6 @@ class PlayList:
         # incase you want to show a chunk of song at a time and progress. 
         while current and (count < chunk_size):
             print(current)
-            print('test error')
             current = current.next
             count += 1
 
