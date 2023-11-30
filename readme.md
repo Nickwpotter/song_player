@@ -24,5 +24,7 @@ Users can create additional playlists by returning to the main menu and repeatin
 
 # Contributors Section
 Justin Cresswell
+
 Nick Potter
+
 Alexis Perez
